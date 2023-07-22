@@ -3,8 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 body {
+  font-family: Roboto;
   background-color: #161d31;
+  color: rgb(229 231 235);
+  padding-bottom: 2rem;
 }
 
 .material-icons.text-base {
